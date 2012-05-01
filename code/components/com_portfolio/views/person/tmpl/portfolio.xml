@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+    <layout title="COM_PORTFOLIO_VIEW_PORTFOLIO">
+        <message>COM_PORTFOLIO_VIEW_PORTFOLIO_DESC</message>
+    </layout>
+    <fields name="request">
+        <fieldset name="request" addfieldpath="/administrator/components/com_portfolio/models/fields">>
+            <field name="id" type="getlist" model="people" label="COM_PORTFOLIO_VIEW_PORTFOLIO_ID" description="COM_PORTFOLIO_VIEW_PORTFOLIO_ID_DESC" />
+        </fieldset>
+    </fields>
+</metadata>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="2.5" method="upgrade">s
+    <name>Portfolio</name>
+    <author>Wintersett</author>
+    <creationDate>October 2011</creationDate>
+    <copyright>(C) 2012 Wintersett. All rights reserved.</copyright>
+    <license>GNU/GPL</license>
+    <authorurl>wintersettmedia.co.uk</authorurl>
+    <version>1.0</version>
+    <description>Portfolio extension for Joomla!</description>
+
+    <!-- frontend files -->
+    <files folder="components/com_portfolio">
+        <file>dispatcher.php</file>
+        <file>htaccess.txt</file>
+        <file>portfolio.php</file>
+        <file>mappings.php</file>
+        <file>router.php</file>
+        <folder>controllers</folder>
+        <folder>views</folder>
+    </files>
+    
+    <!-- frontend language files -->
+    <languages folder="language">
+        <language tag="en-GB">en-GB/en-GB.com_portfolio.ini</language>
+    </languages>
+    
+    <administration>
+    
+        <!-- menu links -->
+        <menu img="../media/com_portfolio/images/16/portfolio.png">COM_PORTFOLIO</menu>
+        <submenu>
+            <menu view="dashboard" img="../media/com_portfolio/images/16/dashboard.png">COM_PORTFOLIO_DASHBOARD</menu>
+            <menu view="categories" img="../media/com_portfolio/images/16/categories.png">COM_PORTFOLIO_CATEGORIES</menu>
+            <menu view="people" img="../media/com_portfolio/images/16/people.png">COM_PORTFOLIO_PEOPLE</menu>
+            <menu view="works" img="../media/com_portfolio/images/16/works.png">COM_PORTFOLIO_WORKS</menu>
+        </submenu>
+        
+        <!-- backend files -->
+        <files folder="administrator/components/com_portfolio">
+            <file>dispatcher.php</file>
+            <file>htaccess.txt</file>
+            <file>portfolio.php</file>
+            <folder>controllers</folder>
+            <folder>databases</folder>
+            <folder>install</folder>
+            <folder>models</folder>
+            <folder>views</folder>
+        </files>
+        
+        <!-- backend language files -->
+        <languages folder="administrator/language">
+            <language tag="en-GB">en-GB/en-GB.com_portfolio.ini</language>
+            <language tag="en-GB">en-GB/en-GB.com_portfolio.sys.ini</language>
+        </languages>
+    </administration>
+    
+    <!-- media files -->
+    <media folder="media/com_portfolio" destination="com_portfolio">
+        <file>htaccess.txt</file>
+        <folder>css</folder>
+        <folder>images</folder>
+        <folder>js</folder>
+    </media>
+    
+    <!-- install/uninstall files -->
+    <install>
+        <sql>
+            <file driver="mysql" charset="utf8">install/install.sql</file>
+        </sql>
+    </install>
+    <uninstall>
+        <sql>
+            <file driver="mysql" charset="utf8">install/uninstall.sql</file>
+        </sql>
+    </uninstall>
+</extension>

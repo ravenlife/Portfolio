@@ -1,0 +1,84 @@
+.clearfix:before,.clearfix:after{display:table;content:"";}
+.clearfix:after{clear:both;}
+.contact-form {width:90%; margin:auto;padding-bottom:20px;}
+.contact-form .element {float:left;width:50%;margin-top:10px;}
+.contact-form .contact-element {width:100%;}
+.contact-form .contact-message {width:100%;}
+.contact-form label {display:block; margin:0px 0 5px 0;}
+.contact-form input {padding:2px;width:95%;}
+.contact-form textarea {width:98%;}
+.contact-form .btn {width: 100px;float: right;margin-right: 20px;}
+
+#com-portfolio-people ul.actions a.readmore {
+	margin-right: 5px;
+}
+#com-portfolio-person .polaroid, #com-portfolio-people .polaroid  {
+	min-height: 290px;
+	width:40%;
+	float:left;
+	margin-top:20px;
+}
+#com-portfolio-person .polaroid a:after, #com-portfolio-people .polaroid a:after { content: attr(data-label) }
+#com-portfolio-person .polaroid a, #com-portfolio-people .polaroid a {
+	background: white;
+	display: inline;
+	float: left;
+	margin: 0 0 27px 30px;
+	width: auto;
+	padding: 10px 10px 15px;
+	text-align: center;
+	font-family: "Marker Felt", sans-serif;
+	text-decoration: none;
+	color: #333;
+	font-size: 18px;
+	-webkit-box-shadow: 0 3px 6px rgba(0,0,0,.25);
+	-moz-box-shadow: 0 3px 6px rgba(0,0,0,.25);
+	-webkit-transform: rotate(-2deg);
+	-webkit-transition: -webkit-transform .15s linear;
+	-moz-transform: rotate(-2deg);
+	min-height: 200px;
+	min-width: 190px;
+}
+#com-portfolio-person .polaroid a:hover, #com-portfolio-people .polaroid a:hover  {
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	position: relative;
+	z-index: 5;
+	-webkit-box-shadow: 0 3px 6px rgba(0,0,0,.5);
+	-moz-box-shadow: 0 3px 6px rgba(0,0,0,.5);
+	background:none!important;
+	color: #333;
+}
+#com-portfolio-person .polaroid img, #com-portfolio-people .polaroid img {
+	display: block;
+	margin-bottom: 12px;
+}
+
+#com-portfolio-person .about-details, #com-portfolio-people .about-details {
+	float: left;
+	overflow:hidden;
+	width:60%;
+}
+#com-portfolio-person .contact-details, #com-portfolio-person .social-links {
+	list-style: none;
+	width: 40%;
+	float: left;
+}
+#com-portfolio-person .person {
+	border-bottom: solid 1px #DDD;
+}
+#com-portfolio-person .person h2 {
+	float: right;
+}
+#com-portfolio-person .person .person-bio {
+	margin-top: 50px;
+}
+.portfolio-work .work-icon {
+	float: left;
+}
+.portfolio-work {
+	list-style: none;
+}
+#com-portfolio-work .work-icon {
+	padding: 20px;
+}

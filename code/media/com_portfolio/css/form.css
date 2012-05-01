@@ -1,0 +1,53 @@
+/* Form Overrides */
+fieldset.adminform {
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	padding: 0px;
+}
+fieldset .element:nth-child(odd) {
+	background: rgba(245, 245, 245, 0.8);
+}
+.-koowa-form .element {
+	margin: 0;
+	padding: 10px 10px 10px 163px;
+	position: relative;
+	clear: both;
+}
+.-koowa-form .element .key {
+	color: #666;
+	font-weight: bold;
+	padding: 3px 0;
+	position: absolute;
+	left: 10px;
+	max-width: 140px;
+	top: 50%;
+	margin: -0.9em 3px 0;
+}
+.-koowa-form .element .inputbox, 
+.-koowa-form .element select,
+.-koowa-form .element img {
+	display: block;
+	float: none;
+}
+.-koowa-form .states label {
+	float: left;
+	clear: none;
+}
+.-koowa-form textarea, .-koowa-form input[type="text"] {
+	width:98%;
+	padding:1%;
+	border: 1px solid silver;
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+}
+form .required.invalid, form .validation-failed {
+	border-color: red!important;
+}
+.-koowa-form .validation-advice {
+	display:none!important;
+}
+.clearfix:before,.clearfix:after{display:table;content:"";}
+.clearfix:after{clear:both;}
+div.col {float:left;}

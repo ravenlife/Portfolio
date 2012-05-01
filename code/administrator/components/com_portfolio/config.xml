@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <fieldset name="basic" label="COM_PORTFOLIO_CONFIG_BASIC_SETTINGS_LABEL">
+        <field name="contact-fallback" type="list" label="COM_PORTFOLIO_CONFIG_FALLBACK_LABEL" description="COM_PORTFOLIO_CONFIG_FALLBACK_DESC" default="1">
+            <option value="1">COM_PORTFOLIO_CONFIG_FALLBACK_SITE_ADMIN</option>
+            <option value="2">COM_PORTFOLIO_CONFIG_FALLBACK_SELECT_BOX</option>
+        </field>
+    </fieldset>
+</config>

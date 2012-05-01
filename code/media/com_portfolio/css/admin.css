@@ -1,0 +1,20 @@
+/* Toolbar Overrides */
+table.toolbar .button a {color:#333; border:none; text-align:center;}
+table.toolbar .button a:hover {border:none}
+table.toolbar .button .toolbar.disabled {opacity: 0.5; cursor: default}
+table.toolbar .button .toolbar:active {position:relative; top: 1px}
+
+
+/* Toolbar Header Icons */
+.icon-48-works, .icon-48-work {background-image: url(../images/48/works.png)}
+.icon-48-dashboard {background-image: url(../images/48/dashboard.png)}
+.icon-48-people, .icon-48-person {background-image: url(../images/48/people.png)}
+.icon-48-categories, .icon-48-category {background-image: url(../images/48/categories.png)!important}
+
+/* Toolbar Icons */
+.toolbar .icon-32-delete {background-image: url(../images/32/delete.png)}
+.toolbar .icon-32-new {background-image: url(../images/32/new.png)}
+.toolbar .icon-32-apply {background-image: url(../images/32/apply.png)}
+.toolbar .icon-32-save {background-image: url(../images/32/save.png)}
+.toolbar .icon-32-cancel {background-image: url(../images/32/cancel.png)}
+.toolbar .icon-32-preferences {background-image: url(../images/32/preferences.png)}

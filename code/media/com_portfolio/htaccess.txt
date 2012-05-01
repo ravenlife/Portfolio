@@ -1,0 +1,29 @@
+##
+# @version    $Id: htaccess.txt 47 2011-10-10 13:09:38Z richie $
+# @category   Portfolio
+# @copyright  2011 Wintersett. All rights reserved.
+# @license    http://www.gnu.org/licenses/gpl.html
+# @link       http://wintersettmedia.co.uk
+##
+
+##
+# Prevent directory listings
+# We do this instead of dropping empty index.html files in every single directory
+##
+Options -Indexes
+
+#
+# The following lines prevent .htaccess files from being 
+# viewed by Web clients. 
+#
+<Files ~ "\.htaccess">
+    Order allow,deny
+    Deny from all
+</Files>
+
+## Deny access to extension xml files
+<Files ~ "\.xml$">
+    Order allow,deny
+    Deny from all
+    Satisfy all
+</Files>
