@@ -78,6 +78,10 @@
 		            <label class="key"><?= @text('COM_PORTFOLIO_YOUTUBE') ?></label>
 		           	<input type="text" name="youtube" id="youtube" class="inputbox value" size="50" value="<?= $person->youtube ?>"/>
 		        </div>
+		        <div class="element">
+		            <label class="key"><?= @text('COM_PORTFOLIO_GITHUB') ?></label>
+		           	<input type="text" name="github" id="github" class="inputbox value" size="50" value="<?= $person->github ?>"/>
+		        </div>
 		</fieldset>
 	</div>
 	<div class="col width-50">

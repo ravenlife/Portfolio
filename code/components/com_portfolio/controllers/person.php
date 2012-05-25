@@ -43,7 +43,7 @@ class ComPortfolioControllerPerson extends ComDefaultControllerDefault
             return;
         }
 
-        if (!$context->data->email || !$this->getService('koowa:filter.email')->sanitize($context->data->email)) {
+        if (!$context->data->email || !$this->getService('koowa:filter.email')->validate($context->data->email)) {
             $app->enqueueMessage(JText::_('COM_PORTFOLIO_VALID_EMAIL_REQUIRED'));
             return;
         }

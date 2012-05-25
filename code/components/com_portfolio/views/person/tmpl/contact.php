@@ -45,7 +45,7 @@
 
 			<div class="element contact-message">
 				<label for="message"><?= @text('COM_PORTFOLIO_MESSAGE') ?>*</label>
-				<textarea rows="6" id="message" name="message" tabindex="5"><? KRequest::get('session.portfolio.message', 'string') ?></textarea>
+				<textarea rows="6" id="message" name="message" tabindex="5"><?= KRequest::get('session.portfolio.message', 'string') ?></textarea>
 			</div>
 			<input type="submit" name="submit" class="btn primary" value="Send">
 			<input type="hidden" name="action" value="contact">

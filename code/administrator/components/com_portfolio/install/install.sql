@@ -48,6 +48,7 @@ CREATE TABLE IF NOT EXISTS `#__portfolio_people` (
   `twitter` varchar(255) NOT NULL DEFAULT '' COMMENT '@Filter("url")',
   `facebook` varchar(255) NOT NULL DEFAULT '' COMMENT '@Filter("url")',
   `youtube` varchar(255) NOT NULL DEFAULT '' COMMENT '@Filter("url")',
+  `github` varchar(255) NOT NULL DEFAULT '' COMMENT '@Filter("url")',
   `email` varchar(100) COMMENT '@Filter("email")',
   `ordering` int(11) NOT NULL DEFAULT '1',
   `created_on` datetime NOT NULL default '0000-00-00 00:00:00',

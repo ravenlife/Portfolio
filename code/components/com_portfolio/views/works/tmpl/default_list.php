@@ -19,4 +19,5 @@
 				</article>
 			</li>
 		<? endforeach ?>
+	</ul>
 <? endif ?>

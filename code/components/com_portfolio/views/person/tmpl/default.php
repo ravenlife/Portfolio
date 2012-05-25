@@ -73,6 +73,13 @@
 					</a>
 				</li>
 			<? endif ?>
+			<? if ($person->github) : ?>
+				<li>
+					<a class="github" href="<?= $person->github ?>" title="<?= sprintf(@text('COM_PORTFOLIO_PERSON_GITHUB'), $person->title) ?>">
+						<?= @text('COM_PORTFOLIO_GITHUB') ?>
+					</a>
+				</li>
+			<? endif ?>
 			<li>
 				<a href="<?= @route('view=person&layout=portfolio&id='.$person->id) ?>" title="<?= sprintf(@text('COM_PORTFOLIO_PERSON_PORTFOLIO'), $person->title) ?>">
 					<?= @text('COM_PORTFOLIO_VIEW_PORTFOLIO') ?>
